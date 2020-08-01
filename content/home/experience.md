@@ -7,36 +7,13 @@ weight = 40  # Order that this section will appear.
 
 title = "Experience"
 
-
-# Date format for experience
-#   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
-date_format = "July 2020"
-
-
-subtitle = "Translation"
-
-[[experience]]
-  title = "Curator"
-  company = "Kirrt Foundation"
-  company_url = "https://kirrt.org/"
-  location = "Chandigarh"
-  date_start = "2017-08-16"
-  date_end = ""
-  description = """
-  Responsibilities include:
-  
-  * Website 
-  * Content Curation
-  * People engagement
-  """
-
-
 # Experiences.
 #   Add/remove as many `[[experience]]` blocks below as you like.
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 subtitle = "Software"
+
 [[experience]]
   title = "Associate Lead Software Engineer"
   company = "Basware India Private Limited"
@@ -46,8 +23,8 @@ subtitle = "Software"
   date_end = ""
   description = """
   Responsibilities include:
-  
-  * Java/Python programming in R & D 
+
+  * Java/Python programming in R & D
   * Security improvement
   * Performance enhancement
   """
@@ -61,6 +38,22 @@ subtitle = "Software"
   date_end = "2011-07-31"
   description = """Java/Spring Development."""
 
+subtitle = "Translation"
+
+[[experience]]
+    title = "Curator"
+    company = "Kirrt Foundation"
+    company_url = "https://kirrt.org/"
+    location = "Chandigarh"
+    date_start = "2017-08-16"
+    date_end = ""
+    description = """
+    Responsibilities include:
+
+    * Website
+    * Content Curation
+    * People engagement
+    """
 
 
 +++
