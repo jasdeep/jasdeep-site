@@ -1,0 +1,36 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Home"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  name = "ਲਿਖਤਾਂ"
+  url = "#posts"
+  weight = 20
+
+[[main]]
+  name = "ਕਾਰਜ"
+  url = "#projects"
+  weight = 30
+
+[[main]]
+  name = "ਛਪੇ"
+  url = "#featured"
+  weight = 40
+
+[[main]]
+  name = "ਮੁਲਾਕਾਤ"
+  url = "#contact"
+  weight = 60
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+[[main]]
+    name = "CV"
+    url = "files/Jasdeep-Singh_CV.pdf"
+    weight = 70
